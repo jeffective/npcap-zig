@@ -1,6 +1,7 @@
 .{
     .name = .npcap,
     .version = "1.15.0",
+    .minimum_zig_version = "0.15.0-dev.1474+3ea015db9",
     .fingerprint = 0xed6dc00e8ae2ae57, // Changing this has security and trust implications.
     .dependencies = .{
         .npcap_sdk = .{
